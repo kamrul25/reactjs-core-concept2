@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { useEffect, useState } from 'react';
 import Person from './components/Person/Person';
 import Header from './components/Header/Header';
 import Countries from './components/Countries/Countries';
@@ -11,11 +10,9 @@ function App() {
       <Header></Header>
       <Countries></Countries>
       <Person></Person>
-      {/* <LoadCountries></LoadCountries> */}
     </div>
   );
 }
-
 
 
 /* function LoadCountries (){
